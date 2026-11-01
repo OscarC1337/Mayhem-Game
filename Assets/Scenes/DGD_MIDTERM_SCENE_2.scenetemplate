@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13966, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: DGD_MIDTERM_SCENE_2
+  m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.SceneTemplate.SceneTemplateAsset
+  templateScene: {fileID: 102900000, guid: 8c9cfa26abfee488c85f1582747f6a02, type: 3}
+  templateName: 
+  description: 
+  preview: {fileID: 0}
+  dependencies:
+  - dependency: {fileID: 2800000, guid: 2580ca84ab97280449f1003904b84450, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: bfb2ecbfb841b1a40b1025ae84478fdd, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 6ff48900d6672b1499ef16e337d3a0f4, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 782b77cedb4e6fe40b50edbbbfce7692, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 4725415512291335076, guid: c698923621b5d6a4fbcbb4838cf0c9b4, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: e2f879789cee7bd4baed9f81a01a9e23, type: 3}
+    instantiationMode: 0
+  templatePipeline: {fileID: 0}
+  badge: {fileID: 0}
+  addToDefaults: 0
