@@ -4,14 +4,13 @@ using UnityEngine.InputSystem;
 
 
 
-public class MovementScript : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
 
     public float movementSpeed = 3;
     public float normalSpeed = 3;
-    public float boostSpeed = 8;
-    public Rigidbody2D RB;
-    
+    public float boostSpeed = 5;
+    public Rigidbody2D rb;
     void Start()
     {
 
@@ -42,7 +41,7 @@ public class MovementScript : MonoBehaviour
         {
             transform.position += Vector3.down * movementSpeed * Time.deltaTime;
         }
-
+        
         if (Keyboard.current.leftShiftKey.isPressed)
         {
             movementSpeed = boostSpeed;

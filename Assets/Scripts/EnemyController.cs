@@ -1,19 +1,16 @@
 using UnityEngine;
 
-public class ChaseScript : MonoBehaviour
+public class EnemyController : MonoBehaviour
 {
 
     public GameObject Enemy;
-
-    public Rigidbody2D RB;
-
+    public Rigidbody2D rb;
     public float Speed = 2;
-
     Vector2 vel = new Vector2(0, 0);
 
     void Start()
     {
-
+        
     }
 
     void Update()
@@ -36,7 +33,7 @@ public class ChaseScript : MonoBehaviour
             vel.y = Speed;
         }
 
-        RB.linearVelocity = vel;
+        rb.linearVelocity = vel;
     }
 }
 
